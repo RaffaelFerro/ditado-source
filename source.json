@@ -17,12 +17,21 @@
       "tintColor": "#FF6A13",
       "category": "utilities",
       "screenshotURLs": [],
-      "version": "0.2.1",
+      "version": "0.2.2",
       "versionDate": "2026-10-23",
-      "versionDescription": "Correção: o ditado não fica mais preso em \"Arrumando…\". Prazos que crescem com o tamanho da fala e limite de uso do Groq proporcional ao ditado.",
-      "downloadURL": "https://github.com/RaffaelFerro/ditado-source/releases/download/v0.2.1/Ditado.ipa",
-      "size": 602256,
+      "versionDescription": "Sem parênteses e notas que você não falou; não repete o que já estava no campo; menos erros do Groq ao ditar várias vezes seguidas.",
+      "downloadURL": "https://github.com/RaffaelFerro/ditado-source/releases/download/v0.2.2/Ditado.ipa",
+      "size": 604681,
       "versions": [
+        {
+          "version": "0.2.2",
+          "buildVersion": "1",
+          "date": "2026-10-23",
+          "localizedDescription": "Sem parênteses e notas que você não falou; não repete o que já estava no campo; menos erros do Groq ao ditar várias vezes seguidas.",
+          "downloadURL": "https://github.com/RaffaelFerro/ditado-source/releases/download/v0.2.2/Ditado.ipa",
+          "size": 604681,
+          "minOSVersion": "26.0"
+        },
         {
           "version": "0.2.1",
           "buildVersion": "1",
