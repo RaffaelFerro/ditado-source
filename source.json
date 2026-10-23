@@ -1,0 +1,47 @@
+{
+  "name": "Ditado",
+  "identifier": "com.raffaelferro.ditado.source",
+  "subtitle": "Ditado por voz em português, arrumado no cursor",
+  "description": "Ditado por voz para iPhone em português do Brasil: teclado com microfone, texto ao vivo e arrumação por IA em três níveis.",
+  "iconURL": "https://raw.githubusercontent.com/RaffaelFerro/ditado-source/main/icon.png",
+  "website": "https://github.com/RaffaelFerro/ditado-source",
+  "tintColor": "#FF6A13",
+  "apps": [
+    {
+      "name": "Ditado",
+      "bundleIdentifier": "com.ferro.ditado.ios",
+      "developerName": "Raffael Ferro",
+      "subtitle": "Fale do seu jeito, o texto entra arrumado",
+      "localizedDescription": "Fale do seu jeito e o texto entra arrumado onde está o cursor, em qualquer app.\n\n• Teclado Ditado com microfone: o rascunho aparece ao vivo no campo e, ao parar, vira texto arrumado\n• Três níveis: 1 Fiel (só tira os vícios), 2 Arrumado (frases claras), 3 Editor (organiza as ideias)\n• Tira ééé, tipo, né; entende quando você se corrige (\"sexta, não, quinta\"); faz listas\n• Toque nas costas ou botão na Central de Controle liga o microfone sem abrir o app\n• A Apple transcreve no próprio iPhone; o Groq (chave grátis em console.groq.com) arruma o texto\n\nRequer iOS 26. Depois de instalar: abra o app, cole a chave do Groq, libere o microfone e ligue o teclado em Ajustes › Geral › Teclado › Teclados, com Acesso Total.",
+      "iconURL": "https://raw.githubusercontent.com/RaffaelFerro/ditado-source/main/icon.png",
+      "tintColor": "#FF6A13",
+      "category": "utilities",
+      "screenshotURLs": [],
+      "version": "0.2.0",
+      "versionDate": "2026-10-23",
+      "versionDescription": "Primeira versão pública: teclado com texto ao vivo, três níveis de arrumação e Toque nas costas para ligar o microfone.",
+      "downloadURL": "https://github.com/RaffaelFerro/ditado-source/releases/download/v0.2.0/Ditado.ipa",
+      "size": 597863,
+      "versions": [
+        {
+          "version": "0.2.0",
+          "buildVersion": "1",
+          "date": "2026-10-23",
+          "localizedDescription": "Primeira versão pública: teclado com texto ao vivo, três níveis de arrumação e Toque nas costas para ligar o microfone.",
+          "downloadURL": "https://github.com/RaffaelFerro/ditado-source/releases/download/v0.2.0/Ditado.ipa",
+          "size": 597863,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "O Ditado ouve enquanto você fala pelo teclado e transforma a fala em texto."
+        }
+      }
+    }
+  ],
+  "news": []
+}
