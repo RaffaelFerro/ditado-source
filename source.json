@@ -17,12 +17,21 @@
       "tintColor": "#FF6A13",
       "category": "utilities",
       "screenshotURLs": [],
-      "version": "0.2.0",
+      "version": "0.2.1",
       "versionDate": "2026-10-23",
-      "versionDescription": "Primeira versão pública: teclado com texto ao vivo, três níveis de arrumação e Toque nas costas para ligar o microfone.",
-      "downloadURL": "https://github.com/RaffaelFerro/ditado-source/releases/download/v0.2.0/Ditado.ipa",
-      "size": 597863,
+      "versionDescription": "Correção: o ditado não fica mais preso em \"Arrumando…\". Prazos que crescem com o tamanho da fala e limite de uso do Groq proporcional ao ditado.",
+      "downloadURL": "https://github.com/RaffaelFerro/ditado-source/releases/download/v0.2.1/Ditado.ipa",
+      "size": 602256,
       "versions": [
+        {
+          "version": "0.2.1",
+          "buildVersion": "1",
+          "date": "2026-10-23",
+          "localizedDescription": "Correção: o ditado não fica mais preso em \"Arrumando…\". Prazos que crescem com o tamanho da fala e limite de uso do Groq proporcional ao ditado.",
+          "downloadURL": "https://github.com/RaffaelFerro/ditado-source/releases/download/v0.2.1/Ditado.ipa",
+          "size": 602256,
+          "minOSVersion": "26.0"
+        },
         {
           "version": "0.2.0",
           "buildVersion": "1",
